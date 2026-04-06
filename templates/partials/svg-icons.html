@@ -1,0 +1,17 @@
+{%- set socials = load_data(path="data/socials.yml") -%}
+{%- for link in config.extra.social_links -%}
+  {%- if link.user_id -%}
+    {%- if link.platform == "orcid" %}
+      <a href="https://orcid.org/{{ link.user_id }}">
+        <svg class="icon-orcid" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.3 4.3c.2-.2.5-.2.7 0l5.5 5.5c.2.2.2.5 0 .7l-5.5 5.5c-.2.2-.5.2-.7 0l-5.5-5.5c-.2-.2-.2-.5 0-.7l5.5-5.5zm-4.6 0c.2-.2.5-.2.7 0l5.5 5.5c.2.2.2.5 0 .7l-5.5 5.5c-.2.2-.5.2-.7 0l-5.5-5.5c-.2-.2-.2-.5 0-.7l5.5-5.5z"/>
+        </svg>
+      </a>
+    {%- else -%}
+      {%- set social = socials | filter(attribute="platform", value=link.platform) | first %}
+      <a href="{% if link.platform != 'feed' %}{{ social.url ~ link.user_id }}{% else %}{{ social.url | safe }}{% endif %}">
+        <i class="svg-icon icon-{{ social.icon }}"></i>
+      </a>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}   

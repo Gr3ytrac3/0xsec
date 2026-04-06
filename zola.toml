@@ -1,0 +1,129 @@
+# The URL the site will be built for
+base_url = "https://zola-hacker.enginerd.io/"
+
+# The title of the site
+title = "Cyberdev(0xsec)"
+
+# The description of the site
+description = "Offensive security research, Kernel security eng & Low-level exploit"
+
+
+author = "Cyberdev(0xsec)"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to minify the HTML when building the site
+minify_html = false
+
+# Whether to generate an Atom feed
+generate_feeds = true
+
+# Taxonomies
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+# Whether to do syntax highlighting
+[markdown.highlighting]
+theme = "dark-plus"
+
+# Whether to render emojis
+render_emoji = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
+
+[extra]
+title_separator = "|" # set as |, -, _, etc
+
+# The path to the logo of the site
+logo = "./static/images/favicon_io/favicon-32x32.png"
+
+# Google Analytics tracking ID
+google_analytics = "example-tracking-id"
+
+# Contact form script id that points to google macros (e.g. https://script.google.com/macros/s/<script-identifier>/exec)
+# More info about contact form based on google macros can be found here: https://github.com/en9inerd/learn-to-send-email-via-google-script-html-no-server
+contact_form_script_id = "<script-identifier>"
+
+# Visitor notifier based on IFTTT + Webhooks. Sample here - /static/js/monitor.js
+monitor = false
+
+# Menu items
+menu = [
+  { url = "/about", name = "About" },
+  { url = "/tags", name = "Tags" },
+  { url = "/project", name = "Projects" },
+]
+
+language_code = "en-US"
+
+# Enable OpenGraph metadata
+opengraph = true
+
+timezone = "America/New_York"
+
+# Date and time format for displaying post dates.
+# If left empty, the default format will be used: "%B %e, %Y at %H:%M %Z".
+# Example of a custom format: "%Y-%m-%d %H:%M:%S %z" (2024-02-04 15:30:00 +0000)
+# timeformat = ""
+
+# The path to cv file if you use cv shortcode
+cv_file = "./static/files/Kalu_Umah_Kalu_Resume.pdf"
+
+# provide link to edit page on github
+edit_page = true
+
+# Use theme specific tags page based on templates/tags.html
+simplified_tags = false
+
+# Social links
+social_links = [
+  { platform = "email", user_id = "cyberdevhq@proton.me" },
+  { platform = "github", user_id = "Gr3ytrac3" },
+  { platform = "linkedin", user_id = "kalu-umah-cyberdev-690421279/" },
+  { platform = "twitter", user_id = "thecyberdevhq" },
+  # { platform = "youtube", user_id = "" },
+  # { platform = "telegram", user_id = "" },
+  { platform = "orcid", user_id = "0009-0002-2842-0413" },
+]
+
+# GitHub settings that are used to generate the edit page link
+[extra.github]
+username = "Gr3ytrac3"
+repo = "zola-hacker"
+
+# Giscus settings
+# Please refer to https://giscus.app/ for more information
+# and don't use the same repo_id and category_id as in the example below
+[extra.giscus]
+repo = "en9inerd/zola-hacker"
+repo_id = "R_kgDOMZOW5g"
+category = "Comments"
+category_id = "DIC_kwDOMZOW5s4ChFNw"
+mapping = "og:title"
+strict = 0
+reactions_enabled = 1
+emit_metadata = 0
+input_position = "top"
+theme = "dark"
+lang = "en"
+loading = "lazy"
+crossorigin = "anonymous"
+
+# PGP key
+[extra.pgp_key]
+url = "https://keys.openpgp.org/vks/v1/by-fingerprint/DA7B3D517A390BAB13D66BAF8A447E99F3FDA493"
+fingerprint = "DA7B 3D51 7A39 0BAB 13D6  6BAF 8A44 7E99 F3FD A493"
+
+# JSON-LD metadata
+[extra.bio]
+gender = "male"
+employer_name = "Unknown"
+employer_url = "https://unknown.com"
+job_title = "Software Engineer"
+links = [
+  "https://github.com/johndoe",
+  "https://linkedin.com/in/johndoe",
+  "https://twitter.com/johndoe",
+]
