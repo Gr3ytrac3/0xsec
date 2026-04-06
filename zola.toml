@@ -53,7 +53,7 @@ monitor = false
 menu = [
   { url = "/about", name = "About" },
   { url = "/tags", name = "Tags" },
-  { url = "/project", name = "Projects" },
+  { url = "/project", name = "Project" },
 ]
 
 language_code = "en-US"
@@ -69,7 +69,7 @@ timezone = "America/New_York"
 # timeformat = ""
 
 # The path to cv file if you use cv shortcode
-cv_file = "./static/files/Kalu_Umah_Kalu_Resume.pdf"
+cv_file = "cv.pdf"
 
 # provide link to edit page on github
 edit_page = true
@@ -91,27 +91,27 @@ social_links = [
 # GitHub settings that are used to generate the edit page link
 [extra.github]
 username = "Gr3ytrac3"
-repo = "zola-hacker"
+repo = "0xsec"
 
 # Giscus settings
 # Please refer to https://giscus.app/ for more information
 # and don't use the same repo_id and category_id as in the example below
 [extra.giscus]
-repo = "en9inerd/zola-hacker"
-repo_id = "R_kgDOMZOW5g"
-category = "Comments"
-category_id = "DIC_kwDOMZOW5s4ChFNw"
-mapping = "og:title"
+repo = "Gr3ytrac3/0xsec"
+repo_id = "R_kgDOR6_a4A"
+category = "General"
+category_id = "DIC_kwDOR6_a4M4C6Kc7"
+mapping = "pathname"
 strict = 0
 reactions_enabled = 1
 emit_metadata = 0
-input_position = "top"
+input_position = "bottom"
 theme = "dark"
 lang = "en"
-loading = "lazy"
 crossorigin = "anonymous"
+loading = "lazy"
 
-# PGP key
+
 [extra.pgp_key]
 url = "https://keys.openpgp.org/vks/v1/by-fingerprint/DA7B3D517A390BAB13D66BAF8A447E99F3FDA493"
 fingerprint = "DA7B 3D51 7A39 0BAB 13D6  6BAF 8A44 7E99 F3FD A493"
