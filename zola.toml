@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://zola-hacker.enginerd.io/"
+base_url = "https://gr3ytrac3.github.io/0xsec/"
 
 # The title of the site
 title = "Cyberdev(0xsec)"
@@ -37,7 +37,7 @@ bottom_footnotes = true
 title_separator = "|" # set as |, -, _, etc
 
 # The path to the logo of the site
-logo = "./static/images/favicon_io/favicon-32x32.png"
+logo = "./static/favicon-32x32.png"
 
 # Google Analytics tracking ID
 google_analytics = "example-tracking-id"
