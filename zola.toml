@@ -119,11 +119,9 @@ fingerprint = "DA7B 3D51 7A39 0BAB 13D6  6BAF 8A44 7E99 F3FD A493"
 # JSON-LD metadata
 [extra.bio]
 gender = "male"
-employer_name = "Unknown"
-employer_url = "https://unknown.com"
 job_title = "Software Engineer"
 links = [
-  "https://github.com/johndoe",
-  "https://linkedin.com/in/johndoe",
-  "https://twitter.com/johndoe",
+  "https://github.com/Gr3ytrac3",
+  "https://www.linkedin.com/in/kalu-umah-cyberdev-690421279/",
+  "https://x.com/thecyberdevhq",
 ]
