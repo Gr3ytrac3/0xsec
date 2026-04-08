@@ -1,39 +1,15 @@
-{% import "macros.html" as macros %}
-<!DOCTYPE html>
-{%- set lang = config.extra.language_code | default(value="en-US") -%}
-<html lang="{{ lang }}" xml:lang="{{ lang }}">
-  
-<head>
-  {% include "partials/head.html" -%}
-  {%- block seo -%}
-    {%- if config.extra.title_separator -%}
-      {%- set title_separator = " " ~ config.extra.title_separator ~ " " -%}
-    {%- else -%}
-      {%- set title_separator = " | " -%}
-    {%- endif -%}
-  {%- endblock seo %}
-</head>
+{% extends "base.html" %}
 
-<body>
-  <header>
-    <div class="container">
-      <a id="a-title" href="{{ get_url(path="/") }}">
-        <h1>{{ config.title }}</h1>
-      </a>
-      <h2>{{ config.description }}</h2>
-      {% include "partials/navigation.html" -%}
-    </div>
-  </header>
-
-  <div class="container">
-    <main>
-      {%- block content %}
-      {%- endblock %}
-    </main>
-  </div>
-  <footer>
-    {%- include "partials/footer.html" -%}
-  </footer>
-</body>
-
-</html>
+{% block content %}
+<div class="projects">
+  <h1>{{ section.title }}</h1>
+  {% for page in section.pages %}
+    <article>
+      <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      {% if page.summary %}
+        <p>{{ page.summary }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+{% endblock content %}
