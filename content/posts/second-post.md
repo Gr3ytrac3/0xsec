@@ -6,17 +6,12 @@ date = 2017-01-09T00:00:00+00:00
 tags = ["Features", "Markdown", "Second"]
 +++
 
-<!DOCTYPE html>
-</head>
-<body>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-label">Security Research &mdash; Covert Channels</div>
-    <p class="subtitle">How two processes can hold a complete conversation without writing a single byte of file content — and why almost nobody would notice.</p>
-  </header>
+How two processes can hold a complete conversation without writing a single byte of file content — and why almost nobody would notice.
+ <!--more-->
 
 <!-- TOC -->
+
 <div class="toc-wrapper">
   <nav class="toc">
     <div class="toc-title">Table of Contents</div>

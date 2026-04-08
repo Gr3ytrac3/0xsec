@@ -11,4 +11,5 @@ This research originated from an audio-based post-exploitation project on Linux,
 
 This triggered a deeper question: how exactly is audio isolated between the host and the VM, and can that isolation boundary be probed or subverted? What followed was a systematic investigation of the audio stack that revealed a significant finding.
 
+<!--more-->
 
