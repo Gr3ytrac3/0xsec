@@ -41,6 +41,15 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+```c
+# C code with syntax highlighting
+#include <stdio.h>
+
+int main() {
+  printf("Here're all processes in real time\n");
+  return 0;
+}
+```
 
 #### Header 4
 
