@@ -1,5 +1,5 @@
 +++
-title = "Corvert Channels Gues-to-host Research"
+title = "Corvert Channels Guest-to-host Research"
 date = 2026-08-04T00:00:00+00:00
 
 [taxonomies]
