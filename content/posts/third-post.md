@@ -1,9 +1,14 @@
 +++
-title = "Third Post"
+title = "Silent Bidirectional Audio Interception Across QEMU/KVM Virtualization Boundary"
 date = 2017-01-08T00:00:00+00:00
 
 [taxonomies]
 tags = ["Features", "Markdown", "Second"]
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+
+This research originated from an audio-based post-exploitation project on Linux, which involved building tooling to capture and exfiltrate microphone audio from a compromised host. During simulation of the exploit inside a QEMU/KVM virtual machine, an unexpected observation was made: while music was playing on the host, the VM's audio capture pipeline only recorded the researcher's voice — not the host music.
+
+This triggered a deeper question: how exactly is audio isolated between the host and the VM, and can that isolation boundary be probed or subverted? What followed was a systematic investigation of the audio stack that revealed a significant finding.
+
+
