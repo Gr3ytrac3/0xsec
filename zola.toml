@@ -53,7 +53,7 @@ monitor = false
 menu = [
   { url = "/about", name = "About" },
   { url = "/tags", name = "Tags" },
-  { url = "/project", name = "Project" },
+  { url = "/projects", name = "Projects" },
 ]
 
 language_code = "en-US"
