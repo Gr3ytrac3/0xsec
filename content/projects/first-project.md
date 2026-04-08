@@ -1,6 +1,12 @@
 +++
-title = "My First Project"
-date = 2026-01-01T00:00:00+00:00
+title = "From Vulnerable to Bulletproof: Implementing DNS-over-HTTPS for Ultimate Privacy"
+date = 2025-01-10T00:00:00+00:00
+
+[taxonomies]
+tags = ["Features", "Markdown"]
 +++
 
-Project content here.
+Implementing DNS-over-HTTPS for Ultimate Privacy.
+<!--more-->
+
+Full project details here.

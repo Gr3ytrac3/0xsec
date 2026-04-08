@@ -1,15 +1,25 @@
-{% extends "base.html" %}
-
-{% block content %}
-<div class="projects">
-  <h1>{{ section.title }}</h1>
-  {% for page in section.pages %}
-    <article>
-      <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-      {% if page.summary %}
-        <p>{{ page.summary }}</p>
-      {% endif %}
-    </article>
-  {% endfor %}
+{%- extends "base.html" %}
+{%- block seo -%}
+  {{- super() }}
+  {{- macros::seo(title=section.title, title_addition="", description=section.description, is_home=false) }}
+{%- endblock seo %}
+{%- block content %}
+<div class="pages">
+  {%- for page in section.pages %}
+    {{ macros::page_in_list(page=page) }}
+  {%- endfor %}
 </div>
-{% endblock content %}
+{%- if paginator and paginator.total_pages > 1 %}
+<div class="pagination">
+  {%- if paginator.previous %}
+  <a href="{{ paginator.previous | safe }}" class="previous-page">&lt;-- Previous</a>
+  {%- else %}
+  <span class="previous-page">&lt;-- Previous</span>
+  {%- endif -%}{%- if paginator.next %}
+  <a href="{{ paginator.next | safe }}" class="next-page">Next --&gt;</a>
+  {%- else %}
+  <span class="next-page">Next --&gt;</span>
+  {%- endif %}
+</div>
+{%- endif -%}
+{%- endblock %}
