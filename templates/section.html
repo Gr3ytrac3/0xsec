@@ -9,7 +9,8 @@
       {% if page.summary %}
         <p>{{ page.summary }}</p>
       {% endif %}
+      {{ page.content | safe }}
     </article>
   {% endfor %}
 </div>
-{% endblock content %}
+{% endblock content %}   
