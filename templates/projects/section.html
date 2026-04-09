@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="projects">
+  <h1>{{ section.title }}</h1>
+  {% for page in section.pages %}
+    <article>
+      <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      {% if page.summary %}
+        <p>{{ page.summary }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+{% endblock content %}
