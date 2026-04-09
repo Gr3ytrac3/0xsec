@@ -20,7 +20,7 @@ minify_html = false
 generate_feeds = true
 
 # Taxonomies
-taxonomies = [{ name = "tags" }]
+taxonomies = [{ name = "tags" }, { name = "projects" }]
 
 [markdown]
 # Whether to do syntax highlighting
