@@ -1,6 +1,7 @@
 +++
 title = "Silent Bidirectional Audio Interception Across QEMU/KVM Virtualization Boundary via SPICE and PipeWire"
-date = 2026-03-26T00:00:00+00:00
+date = 2026-03-26
+
 [taxonomies]
 tags = ["Security Research", "QEMU", "KVM", "SPICE", "PipeWire", "Virtualization", "Pre-Disclosure"]
 +++
