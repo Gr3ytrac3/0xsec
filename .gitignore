@@ -67,7 +67,7 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
-
+~/0xsec/content/posts/silent-bidirectional-audio-interception-across-qemu-kvm-virtualization-boundary.md
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,hugo
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
