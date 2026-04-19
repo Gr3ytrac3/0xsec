@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/linux-microphone-debugging.md",
+                "file": "content/pages/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux-microphone-debugging"
+              "title": "about"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Contact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/linux-microphone-debugging.md",
+                "file": "content/pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for linux-microphone-debugging"
+              "title": "Backlinks for about"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/linux-microphone-debugging.md",
+                "file": "content/pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from linux-microphone-debugging"
+              "title": "Outgoing links from about"
             }
           },
           {
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/linux-microphone-debugging.md",
+                "file": "content/pages/about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of linux-microphone-debugging"
+              "title": "Outline of about"
             }
           },
           {
@@ -196,8 +197,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "9e12fc88947de9e8",
+  "active": "f42ff384004492ca",
   "lastOpenFiles": [
+    "content/posts/linux-microphone-debugging.md",
     "content/posts/building-my-qemu-kvm-lab-on-fedora-42.md",
     "content/pages/about.md"
   ]
