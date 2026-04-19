@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Contact",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,10 +196,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f42ff384004492ca",
+  "active": "9e12fc88947de9e8",
   "lastOpenFiles": [
+    "content/posts/silent-bidirectional-audio-interception-across-qemu-kvm-virtualization-boundary.md",
+    "content/pages/about.md",
     "content/posts/linux-microphone-debugging.md",
-    "content/posts/building-my-qemu-kvm-lab-on-fedora-42.md",
-    "content/pages/about.md"
+    "content/posts/building-my-qemu-kvm-lab-on-fedora-42.md"
   ]
 }

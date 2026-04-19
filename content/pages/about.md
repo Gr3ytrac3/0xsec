@@ -10,12 +10,13 @@ pgp_key_enabled = true
 type = "Person"
 +++
 
+
+**TL,DR**  I spend a lot of time thinking about the offensive security of systems at the lowest levels kernels, hypervisors, and the boundaries between them. I use this site to share my research, notes, and findings that might be useful to others working on similar problems.
+
+<div>&nbsp;</div>
 ---
 
-**TL, DR**  I spend a lot of time thinking about the offensive security of systems at the lowest levels kernels, hypervisors, and the boundaries between them. I use this site to share my research, notes, and findings that might be useful to others working on similar problems.
-
----
-
+<div>&nbsp;</div>
 ### A little bit about me
 
 I don't intend to make this section sound like the generic one you see on most sites. I believe that this is the right section where a reader or a visitor connects with the Author of the site. I want to keep this section real and cool. 
